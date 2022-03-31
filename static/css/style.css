@@ -1,0 +1,128 @@
+
+body{
+  background-color: grey;
+}
+.content {
+  background-color: white;
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid rgb(29, 161, 242);
+  border-right: 1px solid rgb(29, 161, 242);
+}
+
+.head .header {
+  display: flex; 
+  padding: 10px;
+  border-bottom: 1px solid rgb(29, 161, 242);
+}
+.head .header img {
+  width: 70px;
+ 
+}
+.head .header h1 {
+  font-size: 22px;  
+}
+
+.post_form {
+  padding: 20px 30px;
+  border-bottom: 1px solid rgb(29, 161, 242);
+  display: flex;
+}
+.my-logo img {
+  width: 60px;
+  padding: 10px;
+}
+.post_form input {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.post_form textarea {
+  width:  73%;
+  border: 1px solid #ccc;
+  height: 140px;
+
+}
+
+.posts li {
+  display: flex;
+  border-bottom: 1px solid rgb(29, 161, 242);
+  padding: 20px 40px;
+  position: relative;
+}
+.posts ul {
+  padding: 0;
+}
+.posts li .logo {
+  flex-basis: 15%;
+}
+
+.posts li .logo img {
+  width: 60%;
+}
+
+.posts li .name_body {
+  flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.posts li .name_body .date {
+  color: gray;
+}
+
+.menu_icon {
+  top: 10px;
+  right: 30px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(29, 161, 242);
+}
+@media screen and (max-width: 500px) {
+  .name {
+    font-size: 20px;
+  }
+}
+
+.post_form button {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid rgb(29, 161, 242);
+  padding: 6px 10px;
+}
+#file {
+  border: 0 ;
+  background-color: white;
+  width: 45%;
+  padding-top: 20px;
+}
+#cancel {
+  background-color: #494949 !important;
+}
+.heart img {
+  width: 20px;
+  padding: 5px;
+}
